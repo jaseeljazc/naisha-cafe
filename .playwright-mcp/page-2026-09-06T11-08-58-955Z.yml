@@ -1,0 +1,242 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - complementary "Loading comic portfolio" [ref=e4]:
+        - generic [aria-hidden]: + 00 // TL
+        - generic [aria-hidden]: TR // 01 +
+        - generic [aria-hidden]: + 02 // BL
+        - generic [aria-hidden]: BR // 03 +
+        - generic [ref=e5]:
+          - generic [ref=e6]: "DOSSIER: CLASSIFIED"
+          - generic [ref=e8]: "> INITIALIZING COMIC ARCHIVE..."
+          - generic [ref=e9]:
+            - generic [ref=e10]: "["
+            - generic [ref=e11]: 000%
+            - generic [ref=e12]: "]"
+        - main [ref=e13]:
+          - generic [aria-hidden]:
+            - generic:
+              - generic: COMICFOLIO · MUHAMMED JASEEL · CREATIVE DEV ·
+              - generic: COMICFOLIO · MUHAMMED JASEEL · CREATIVE DEV ·
+          - heading "MUHAMMED" [level=1] [ref=e15]
+          - heading "JASEEL" [level=1] [ref=e17]
+          - generic [ref=e18]: Creative Developer
+        - generic [ref=e28]:
+          - generic [ref=e29]: SYS // KINETIC ENGINE READY · LAT 11.25° N
+          - button "ENTER NOW" [ref=e33] [cursor=pointer]
+      - generic [ref=e40]:
+        - heading "I'm Jaseel" [level=2] [ref=e42]
+        - paragraph [ref=e47]:
+          - generic [ref=e48]: Creative
+          - generic [ref=e51]: Developer
+    - generic [ref=e55]:
+      - heading "About Me" [level=2] [ref=e57]
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - generic:
+            - generic: THE DESIGNER
+            - heading "Obsessed With Detail" [level=3]
+            - paragraph: Every pixel, spacing rhythm, and typographic contrast matters. I treat the screen as an open canvas, balancing negative space with bold comic ink tension.
+        - generic [ref=e62]:
+          - img "Muhammed Jaseel" [ref=e67]
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - generic [ref=e72]:
+                - generic [ref=e73]: HEMISPHERE // RIGHT
+                - generic [ref=e74]: CREATIVE
+              - heading "Creative Thinking" [level=4] [ref=e82]
+              - list [ref=e83]:
+                - listitem [ref=e84]:
+                  - generic [ref=e86]: Visual storytelling & kinetic flow
+                - listitem [ref=e87]:
+                  - generic [ref=e89]: Bold comic composition & color theory
+                - listitem [ref=e90]:
+                  - generic [ref=e92]: Fluid organic micro-interactions
+            - generic [ref=e93]: "SYNAPSE: INTUITION × LOGIC"
+            - generic [ref=e98]:
+              - heading "Logical Mind" [level=4] [ref=e99]
+              - list [ref=e100]:
+                - listitem [ref=e101]:
+                  - generic [ref=e103]: Resilient Next.js 15 & React 19 architecture
+                - listitem [ref=e104]:
+                  - generic [ref=e106]: Hardware-accelerated WebGL & shaders
+                - listitem [ref=e107]:
+                  - generic [ref=e109]: Deterministic state flows & type safety
+              - generic [ref=e110]:
+                - generic [ref=e111]: HEMISPHERE // LEFT
+                - generic [ref=e112]: SYSTEMS
+        - generic [ref=e117]:
+          - generic:
+            - generic: THE VISIONARY
+            - heading "Living Interfaces" [level=3]
+            - paragraph: Static pages are forgotten. I craft tactile web experiences that react to cursor movement, scroll choreography, and ambient lighting with tangible weight.
+    - generic [ref=e124]:
+      - heading "My Story" [level=2] [ref=e128]
+      - generic:
+        - generic [ref=e133]: CHAPTER I // THE CODEX AWAKENING
+        - paragraph [ref=e140]: LEGEND TELLS OF A BOY WHO DIDN'T MERELY LEARN TO CODE—HE WAS FORGED IN A HIGH-VOLTAGE SERVER STORM UNDER A MIDNIGHT COMIC SKY. BORN WITH AN EYE FOR HYPNOTIC COLOR AND A CURSOR THAT COULD BEND THE FABRIC OF DIGITAL SPACE.
+        - generic [ref=e143]:
+          - generic [ref=e144]: "01"
+          - generic [ref=e145]: /
+          - generic [ref=e146]: "04"
+    - generic [ref=e150]:
+      - heading "Skills Arsenal" [level=2] [ref=e154]
+      - generic [ref=e155]: Chapter 02 // scroll to rotate
+      - generic [ref=e161]:
+        - generic [ref=e162]:
+          - 'button "React 19 — FRONTEND: VIRTUAL DOM ENGINE" [pressed] [ref=e163] [cursor=pointer]':
+            - generic [ref=e164]:
+              - generic [ref=e167]:
+                - generic: FRONTEND
+                - generic [ref=e168]: FE // 01
+                - generic [ref=e171]: FRONTEND
+                - generic [ref=e176]: UI ENGINE
+              - generic [ref=e180]:
+                - generic: WARP!
+                - generic [ref=e188]: React 19
+          - 'button "Next.js 15 — FRONTEND: FULLSTACK SUPERSONIC" [ref=e189] [cursor=pointer]':
+            - generic [ref=e190]:
+              - generic [ref=e193]:
+                - generic: FRONTEND
+                - generic [ref=e194]: FE // 02
+                - generic [ref=e197]: FRONTEND
+                - generic [ref=e202]: FULLSTACK
+              - generic [ref=e206]:
+                - generic: TURBO!
+                - generic [ref=e212]: Next.js 15
+          - 'button "TypeScript — FRONTEND: TYPE GUARDIAN" [ref=e213] [cursor=pointer]':
+            - generic [ref=e214]:
+              - generic [ref=e217]:
+                - generic: FRONTEND
+                - generic [ref=e218]: FE // 03
+                - generic [ref=e221]: FRONTEND
+                - generic [ref=e226]: TYPES
+              - generic [ref=e230]:
+                - generic: SHIELD!
+                - generic [ref=e236]: TypeScript
+          - 'button "JavaScript — FRONTEND: KINETIC RUNTIME" [ref=e237] [cursor=pointer]':
+            - generic [ref=e238]:
+              - generic [ref=e241]:
+                - generic: FRONTEND
+                - generic [ref=e242]: FE // 04
+                - generic [ref=e245]: FRONTEND
+                - generic [ref=e250]: CORE
+              - generic [ref=e254]:
+                - generic: SPARK!
+                - generic [ref=e259]: JavaScript
+          - 'button "Tailwind CSS — FRONTEND: STYLE SHIFT" [ref=e260] [cursor=pointer]':
+            - generic [ref=e261]:
+              - generic [ref=e264]:
+                - generic: FRONTEND
+                - generic [ref=e265]: FE // 05
+                - generic [ref=e268]: FRONTEND
+                - generic [ref=e273]: STYLING
+              - generic [ref=e277]:
+                - generic: SWOOSH!
+                - generic [ref=e281]: Tailwind CSS
+          - 'button "Node.js — BACKEND: EVENT HEAVY-LIFT" [ref=e282] [cursor=pointer]':
+            - generic [ref=e283]:
+              - generic [ref=e286]:
+                - generic: BACKEND
+                - generic [ref=e287]: BE // 01
+                - generic [ref=e290]: BACKEND
+                - generic [ref=e296]: RUNTIME
+              - generic [ref=e300]:
+                - generic: ROAR!
+                - generic [ref=e306]: Node.js
+          - 'button "Express.js — BACKEND: API GATEWAY" [ref=e307] [cursor=pointer]':
+            - generic [ref=e308]:
+              - generic [ref=e311]:
+                - generic: BACKEND
+                - generic [ref=e312]: BE // 02
+                - generic [ref=e315]: BACKEND
+                - generic [ref=e321]: API ROUTE
+              - generic [ref=e325]:
+                - generic: ROUTE!
+                - img [ref=e327]:
+                  - generic [ref=e329]: ex
+                - generic [ref=e330]: Express.js
+          - 'button "MongoDB — DATABASE: NO-SQL VAULT" [ref=e331] [cursor=pointer]':
+            - generic [ref=e332]:
+              - generic [ref=e335]:
+                - generic: DATABASE
+                - generic [ref=e336]: DB // 01
+                - generic [ref=e339]: DATABASE
+                - generic [ref=e346]: NO-SQL
+              - generic [ref=e350]:
+                - generic: STORE!
+                - generic [ref=e356]: MongoDB
+          - 'button "PostgreSQL — DATABASE: RELATIONAL CITADEL" [ref=e357] [cursor=pointer]':
+            - generic [ref=e358]:
+              - generic [ref=e361]:
+                - generic: DATABASE
+                - generic [ref=e362]: DB // 02
+                - generic [ref=e365]: DATABASE
+                - generic [ref=e372]: RELATIONAL
+              - generic [ref=e376]:
+                - generic: LOCK!
+                - generic [ref=e381]: PostgreSQL
+          - 'button "Redux — FRONTEND: ATOMIC SYNC" [ref=e382] [cursor=pointer]':
+            - generic [ref=e383]:
+              - generic [ref=e386]:
+                - generic: FRONTEND
+                - generic [ref=e387]: FE // 06
+                - generic [ref=e390]: FRONTEND
+                - generic [ref=e395]: STATE SYNC
+              - generic [ref=e399]:
+                - generic: PULSE!
+                - generic [ref=e404]: Redux
+          - 'button "HTML5 — FRONTEND: BEDROCK SKELETON" [ref=e405] [cursor=pointer]':
+            - generic [ref=e406]:
+              - generic [ref=e409]:
+                - generic: FRONTEND
+                - generic [ref=e410]: FE // 07
+                - generic [ref=e413]: FRONTEND
+                - generic [ref=e418]: SEMANTIC
+              - generic [ref=e422]:
+                - generic: BASE!
+                - generic [ref=e429]: HTML5
+          - 'button "CSS3 — FRONTEND: VISUAL MATRIX" [ref=e430] [cursor=pointer]':
+            - generic [ref=e431]:
+              - generic [ref=e434]:
+                - generic: FRONTEND
+                - generic [ref=e435]: FE // 08
+                - generic [ref=e438]: FRONTEND
+                - generic [ref=e443]: LAYOUT
+              - generic [ref=e447]:
+                - generic: FLEX!
+                - generic [ref=e454]: CSS3
+          - 'button "Git & GitHub — TOOL: TIMELINE BENDER" [ref=e455] [cursor=pointer]':
+            - generic [ref=e456]:
+              - generic [ref=e459]:
+                - generic: TOOL
+                - generic [ref=e460]: TL // 01
+                - generic [ref=e463]: TOOL
+                - generic [ref=e468]: DEVOPS
+              - generic [ref=e472]:
+                - generic: MERGE!
+                - generic [ref=e476]: Git & GitHub
+          - 'button "Docker — TOOL: ISOLATION POD" [ref=e477] [cursor=pointer]':
+            - generic [ref=e478]:
+              - generic [ref=e481]:
+                - generic: TOOL
+                - generic [ref=e482]: TL // 02
+                - generic [ref=e485]: TOOL
+                - generic [ref=e490]: CONTAINER
+              - generic [ref=e494]:
+                - generic: CARGO!
+                - generic [ref=e504]: Docker
+          - 'button "Figma — TOOL: ARCHITECT CANVAS" [ref=e505] [cursor=pointer]':
+            - generic [ref=e506]:
+              - generic [ref=e509]:
+                - generic: TOOL
+                - generic [ref=e510]: TL // 03
+                - generic [ref=e513]: TOOL
+                - generic [ref=e518]: DESIGN
+              - generic [ref=e522]:
+                - generic: CRAFT!
+                - generic [ref=e530]: Figma
+        - paragraph [ref=e532]:
+          - text: VIRTUAL DOM ENGINE
+          - generic [ref=e533]: /Declarative component hierarchies, concurrent rendering, and reactive state flows.
+  - button "Open Next.js Dev Tools" [ref=e539] [cursor=pointer]

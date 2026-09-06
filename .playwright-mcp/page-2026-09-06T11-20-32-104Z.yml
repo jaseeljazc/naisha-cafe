@@ -1,0 +1,217 @@
+- generic [active] [ref=f1e1]:
+  - button "Open Next.js Dev Tools" [ref=f1e506] [cursor=pointer]
+  - alert [ref=f1e510]
+  - main [ref=f1e511]:
+    - generic [ref=f1e516]:
+      - heading "I'm Jaseel" [level=2] [ref=f1e518]
+      - paragraph [ref=f1e523]:
+        - generic [ref=f1e524]: Creative
+        - generic [ref=f1e527]: Developer
+    - generic [ref=f1e531]:
+      - heading "About Me" [level=2] [ref=f1e533]
+      - generic [ref=f1e534]:
+        - generic [ref=f1e536]:
+          - generic [ref=f1e537]: THE CRAFTSMAN
+          - heading "System Integrity" [level=3] [ref=f1e539]
+          - paragraph [ref=f1e540]: Writing clean, maintainable, self-documenting code. Built for resilience and enterprise scale without sacrificing visual punch or creative audacity.
+        - generic [ref=f1e543]:
+          - img "Muhammed Jaseel" [ref=f1e548]
+          - generic [ref=f1e551]:
+            - generic [ref=f1e552]:
+              - generic [ref=f1e553]:
+                - generic [ref=f1e554]: HEMISPHERE // RIGHT
+                - generic [ref=f1e555]: CREATIVE
+              - heading "Creative Thinking" [level=4] [ref=f1e563]
+              - list [ref=f1e564]:
+                - listitem [ref=f1e565]:
+                  - generic [ref=f1e567]: Visual storytelling & kinetic flow
+                - listitem [ref=f1e568]:
+                  - generic [ref=f1e570]: Bold comic composition & color theory
+                - listitem [ref=f1e571]:
+                  - generic [ref=f1e573]: Fluid organic micro-interactions
+            - generic [ref=f1e574]: "SYNAPSE: INTUITION × LOGIC"
+            - generic [ref=f1e579]:
+              - heading "Logical Mind" [level=4] [ref=f1e580]
+              - list [ref=f1e581]:
+                - listitem [ref=f1e582]:
+                  - generic [ref=f1e584]: Resilient Next.js 15 & React 19 architecture
+                - listitem [ref=f1e585]:
+                  - generic [ref=f1e587]: Hardware-accelerated WebGL & shaders
+                - listitem [ref=f1e588]:
+                  - generic [ref=f1e590]: Deterministic state flows & type safety
+              - generic [ref=f1e591]:
+                - generic [ref=f1e592]: HEMISPHERE // LEFT
+                - generic [ref=f1e593]: SYSTEMS
+        - generic [ref=f1e599]:
+          - generic [ref=f1e600]: THE OPERATIVE
+          - heading "Always Evolving" [level=3] [ref=f1e602]
+          - paragraph [ref=f1e603]: Constantly pushing the frontiers of interactive frontend design. Dedicated to engineering unforgettable web experiences that leave a lasting mark.
+    - generic [ref=f1e610]:
+      - heading "My Story" [level=2] [ref=f1e614]
+      - generic:
+        - generic [ref=f1e619]: CHAPTER IV // THE INFINITE ODYSSEY
+        - paragraph [ref=f1e626]: NOW HE WALKS ALONE THROUGH THE UNCHARTED DIGITAL HIGHWAYS, HOOD DRAWN LOW AGAINST THE STATIC WIND. EVERY CODEBASE IS A BATTLEGROUND; EVERY WEB EXPERIENCE IS A HEROIC CHAPTER WAITING TO BE UNLEASHED.
+        - generic [ref=f1e629]:
+          - generic [ref=f1e630]: "04"
+          - generic [ref=f1e631]: /
+          - generic [ref=f1e632]: "04"
+    - generic [ref=f1e636]:
+      - heading "Skills Arsenal" [level=2] [ref=f1e640]
+      - generic [ref=f1e641]: Chapter 02 // 9 / 15 revealed
+      - generic [ref=f1e647]:
+        - generic [ref=f1e648]:
+          - 'button "React 19 — FRONTEND: VIRTUAL DOM ENGINE" [pressed] [ref=f1e649] [cursor=pointer]':
+            - generic [ref=f1e650]:
+              - generic [ref=f1e653]:
+                - generic: FRONTEND
+                - generic [ref=f1e654]: FE // 01
+                - generic [ref=f1e657]: FRONTEND
+                - generic [ref=f1e662]: UI ENGINE
+              - generic [ref=f1e666]:
+                - generic: WARP!
+                - generic [ref=f1e674]: React 19
+          - 'button "Next.js 15 — FRONTEND: FULLSTACK SUPERSONIC" [ref=f1e675] [cursor=pointer]':
+            - generic [ref=f1e676]:
+              - generic [ref=f1e679]:
+                - generic: FRONTEND
+                - generic [ref=f1e680]: FE // 02
+                - generic [ref=f1e683]: FRONTEND
+                - generic [ref=f1e688]: FULLSTACK
+              - generic [ref=f1e692]:
+                - generic: TURBO!
+                - generic [ref=f1e698]: Next.js 15
+          - 'button "TypeScript — FRONTEND: TYPE GUARDIAN" [ref=f1e699] [cursor=pointer]':
+            - generic [ref=f1e700]:
+              - generic [ref=f1e703]:
+                - generic: FRONTEND
+                - generic [ref=f1e704]: FE // 03
+                - generic [ref=f1e707]: FRONTEND
+                - generic [ref=f1e712]: TYPES
+              - generic [ref=f1e716]:
+                - generic: SHIELD!
+                - generic [ref=f1e722]: TypeScript
+          - 'button "JavaScript — FRONTEND: KINETIC RUNTIME" [ref=f1e723] [cursor=pointer]':
+            - generic [ref=f1e724]:
+              - generic [ref=f1e727]:
+                - generic: FRONTEND
+                - generic [ref=f1e728]: FE // 04
+                - generic [ref=f1e731]: FRONTEND
+                - generic [ref=f1e736]: CORE
+              - generic [ref=f1e740]:
+                - generic: SPARK!
+                - generic [ref=f1e745]: JavaScript
+          - 'button "Tailwind CSS — FRONTEND: STYLE SHIFT" [ref=f1e746] [cursor=pointer]':
+            - generic [ref=f1e747]:
+              - generic [ref=f1e750]:
+                - generic: FRONTEND
+                - generic [ref=f1e751]: FE // 05
+                - generic [ref=f1e754]: FRONTEND
+                - generic [ref=f1e759]: STYLING
+              - generic [ref=f1e763]:
+                - generic: SWOOSH!
+                - generic [ref=f1e767]: Tailwind CSS
+          - 'button "Node.js — BACKEND: EVENT HEAVY-LIFT" [ref=f1e768] [cursor=pointer]':
+            - generic [ref=f1e769]:
+              - generic [ref=f1e772]:
+                - generic: BACKEND
+                - generic [ref=f1e773]: BE // 01
+                - generic [ref=f1e776]: BACKEND
+                - generic [ref=f1e782]: RUNTIME
+              - generic [ref=f1e786]:
+                - generic: ROAR!
+                - generic [ref=f1e792]: Node.js
+          - 'button "Express.js — BACKEND: API GATEWAY" [ref=f1e793] [cursor=pointer]':
+            - generic [ref=f1e794]:
+              - generic [ref=f1e797]:
+                - generic: BACKEND
+                - generic [ref=f1e798]: BE // 02
+                - generic [ref=f1e801]: BACKEND
+                - generic [ref=f1e809]: API ROUTE
+              - generic [ref=f1e813]:
+                - generic: ROUTE!
+                - img [ref=f1e815]:
+                  - generic [ref=f1e817]: ex
+                - generic [ref=f1e818]: Express.js
+          - 'button "MongoDB — DATABASE: NO-SQL VAULT" [ref=f1e819] [cursor=pointer]':
+            - generic [ref=f1e820]:
+              - generic [ref=f1e823]:
+                - generic: DATABASE
+                - generic [ref=f1e824]: DB // 01
+                - generic [ref=f1e827]: DATABASE
+                - generic [ref=f1e834]: NO-SQL
+              - generic [ref=f1e838]:
+                - generic: STORE!
+                - generic [ref=f1e844]: MongoDB
+          - 'button "PostgreSQL — DATABASE: RELATIONAL CITADEL" [ref=f1e845] [cursor=pointer]':
+            - generic [ref=f1e846]:
+              - generic [ref=f1e849]:
+                - generic: DATABASE
+                - generic [ref=f1e850]: DB // 02
+                - generic [ref=f1e853]: DATABASE
+                - generic [ref=f1e860]: RELATIONAL
+              - generic [ref=f1e864]:
+                - generic: LOCK!
+                - generic [ref=f1e869]: PostgreSQL
+          - 'button "Redux — FRONTEND: ATOMIC SYNC" [ref=f1e870] [cursor=pointer]':
+            - generic [ref=f1e871]:
+              - generic [ref=f1e874]:
+                - generic: FRONTEND
+                - generic [ref=f1e875]: FE // 06
+                - generic [ref=f1e878]: FRONTEND
+                - generic [ref=f1e884]: STATE SYNC
+              - generic [ref=f1e888]:
+                - generic: PULSE!
+                - generic [ref=f1e893]: Redux
+          - 'button "HTML5 — FRONTEND: BEDROCK SKELETON" [ref=f1e894] [cursor=pointer]':
+            - generic [ref=f1e895]:
+              - generic [ref=f1e898]:
+                - generic: FRONTEND
+                - generic [ref=f1e899]: FE // 07
+                - generic [ref=f1e902]: FRONTEND
+                - generic [ref=f1e908]: SEMANTIC
+              - generic [ref=f1e912]:
+                - generic: BASE!
+                - generic [ref=f1e919]: HTML5
+          - 'button "CSS3 — FRONTEND: VISUAL MATRIX" [ref=f1e920] [cursor=pointer]':
+            - generic [ref=f1e921]:
+              - generic [ref=f1e924]:
+                - generic: FRONTEND
+                - generic [ref=f1e925]: FE // 08
+                - generic [ref=f1e928]: FRONTEND
+                - generic [ref=f1e934]: LAYOUT
+              - generic [ref=f1e938]:
+                - generic: FLEX!
+                - generic [ref=f1e945]: CSS3
+          - 'button "Git & GitHub — TOOL: TIMELINE BENDER" [ref=f1e946] [cursor=pointer]':
+            - generic [ref=f1e947]:
+              - generic [ref=f1e950]:
+                - generic: TOOL
+                - generic [ref=f1e951]: TL // 01
+                - generic [ref=f1e954]: TOOL
+                - generic [ref=f1e959]: DEVOPS
+              - generic [ref=f1e963]:
+                - generic: MERGE!
+                - generic [ref=f1e967]: Git & GitHub
+          - 'button "Docker — TOOL: ISOLATION POD" [ref=f1e968] [cursor=pointer]':
+            - generic [ref=f1e969]:
+              - generic [ref=f1e972]:
+                - generic: TOOL
+                - generic [ref=f1e973]: TL // 02
+                - generic [ref=f1e976]: TOOL
+                - generic [ref=f1e981]: CONTAINER
+              - generic [ref=f1e985]:
+                - generic: CARGO!
+                - generic [ref=f1e995]: Docker
+          - 'button "Figma — TOOL: ARCHITECT CANVAS" [ref=f1e996] [cursor=pointer]':
+            - generic [ref=f1e997]:
+              - generic [ref=f1e1000]:
+                - generic: TOOL
+                - generic [ref=f1e1001]: TL // 03
+                - generic [ref=f1e1004]: TOOL
+                - generic [ref=f1e1009]: DESIGN
+              - generic [ref=f1e1013]:
+                - generic: CRAFT!
+                - generic [ref=f1e1021]: Figma
+        - paragraph [ref=f1e1023]:
+          - text: VIRTUAL DOM ENGINE
+          - generic [ref=f1e1024]: /Declarative component hierarchies, concurrent rendering, and reactive state flows.

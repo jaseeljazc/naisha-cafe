@@ -1,0 +1,78 @@
+[    1349ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[    1523ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  284296ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  284477ms] [LOG] [Fast Refresh] done in 285ms @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  325602ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  326921ms] [LOG] [Fast Refresh] done in 336ms @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  416874ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  417011ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  484520ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  484839ms] [LOG] [Fast Refresh] done in 279ms @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  484841ms] [LOG] [Fast Refresh] done in 279ms @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  494126ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  494620ms] [LOG] [Fast Refresh] done in 533ms @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  540228ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  540616ms] [LOG] [Fast Refresh] done in 304ms @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  540629ms] [LOG] [Fast Refresh] done in 304ms @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  540632ms] [LOG] [Fast Refresh] done in 304ms @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  553256ms] [LOG] [Fast Refresh] done in 304ms @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  578674ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  579020ms] [LOG] [Fast Refresh] done in 358ms @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  599887ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  600065ms] [LOG] [handleScroll] fired! container: true scrollY: 6000 @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  600074ms] [LOG] [Fast Refresh] done in 209ms @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  600080ms] [LOG] [Fast Refresh] done in 209ms @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  608278ms] [LOG] [handleScroll] fired! container: true scrollY: 6000 @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  631278ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  631775ms] [LOG] [Fast Refresh] done in 365ms @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  633222ms] [ERROR] %o
+
+%s ReferenceError: scheduleUpdate is not defined
+    at SkillsSection (http://localhost:3000/_next/static/chunks/_1_al6l-._.js?id=%255Bproject%255D/components/skills-section.tsx+%255Bapp-client%255D+(ecmascript):1173:9)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:14894:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:4425:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:5892:21)
+    at beginWork (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:6493:540)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:761:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:9385:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:9279:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:9263:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:8928:47)
+    at performSyncWorkOnRoot (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:10093:9)
+    at flushSyncWorkAcrossRoots_impl (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:10009:316)
+    at processRootScheduleInMicrotask (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:10030:106)
+    at http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:10104:158 The above error occurred in the <SkillsSection> component. It was handled by the <ErrorBoundaryHandler> error boundary. @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_client_0t3129w._.js:17451
+[  633245ms] [ERROR] Application error: ReferenceError: scheduleUpdate is not defined
+    at SkillsSection (http://localhost:3000/_next/static/chunks/_1_al6l-._.js?id=%255Bproject%255D/components/skills-section.tsx+%255Bapp-client%255D+(ecmascript):1173:9)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:14894:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:4425:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:5892:21)
+    at beginWork (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:6493:540)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:761:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:9385:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:9279:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:9263:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:8928:47)
+    at performSyncWorkOnRoot (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:10093:9)
+    at flushSyncWorkAcrossRoots_impl (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:10009:316)
+    at processRootScheduleInMicrotask (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:10030:106)
+    at http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:10104:158 @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:1052
+[  633249ms] [ERROR] Application error: ReferenceError: scheduleUpdate is not defined
+    at SkillsSection (http://localhost:3000/_next/static/chunks/_1_al6l-._.js?id=%255Bproject%255D/components/skills-section.tsx+%255Bapp-client%255D+(ecmascript):1173:9)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:14894:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:4425:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:5892:21)
+    at beginWork (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:6493:540)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:761:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:9385:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:9279:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:9263:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:8928:47)
+    at performSyncWorkOnRoot (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:10093:9)
+    at flushSyncWorkAcrossRoots_impl (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:10009:316)
+    at processRootScheduleInMicrotask (http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:10030:106)
+    at http://localhost:3000/_next/static/chunks/1-hf_next_dist_compiled_react-dom_1s631p7._.js:10104:158 @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:1052
+[  639932ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  640853ms] [LOG] [Fast Refresh] done in 56ms @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  640853ms] [LOG] [Fast Refresh] done in 56ms @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776
+[  659709ms] [LOG] [Fast Refresh] done in 56ms @ http://localhost:3000/_next/static/chunks/1-hf_next_dist_0rj6-9x._.js:776

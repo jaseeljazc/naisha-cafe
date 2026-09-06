@@ -1,0 +1,202 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Kettle & Crumb" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+      - navigation [ref=e5]:
+        - link "Menu" [ref=e6] [cursor=pointer]:
+          - /url: "#menu"
+        - link "Hours" [ref=e7] [cursor=pointer]:
+          - /url: "#hours"
+        - link "Find us" [ref=e8] [cursor=pointer]:
+          - /url: "#location"
+  - main [ref=e9]:
+    - generic [ref=e10]:
+      - img "Kettle & Crumb café interior and coffee bar" [ref=e11]
+      - generic [ref=e14]:
+        - heading "Kettle & Crumb" [level=1] [ref=e16]: Kettle &Crumb
+        - paragraph [ref=e17]: Slow coffee and warm bread, since 2019.
+        - generic [ref=e18]: Open now — until 6 pm
+        - generic [ref=e21]:
+          - link "See the menu" [ref=e22] [cursor=pointer]:
+            - /url: "#menu"
+          - link "Find us" [ref=e23] [cursor=pointer]:
+            - /url: "#location"
+    - generic [ref=e24]:
+      - heading "Menu" [level=2] [ref=e26]
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - heading "Coffee" [level=3] [ref=e29]
+          - generic [ref=e30]:
+            - article [ref=e31]:
+              - generic [ref=e32]:
+                - generic [ref=e33]: Cold brew
+                - generic [ref=e35]: ₹160
+              - paragraph [ref=e37]: Steeped slowly for 18 hours, served cold over clear ice
+            - article [ref=e38]:
+              - generic [ref=e39]:
+                - generic [ref=e40]: Cortado
+                - generic [ref=e42]: ₹140
+              - generic [ref=e43]:
+                - paragraph [ref=e44]: Double espresso cut with equal parts silky steamed milk
+                - generic [ref=e45]: "[special]"
+            - article [ref=e46]:
+              - generic [ref=e47]:
+                - generic [ref=e48]: Filter of the day
+                - generic [ref=e50]: ₹120
+              - paragraph [ref=e52]: Ethiopian single origin, washed, notes of citrus and jasmine
+            - article [ref=e53]:
+              - generic [ref=e54]:
+                - generic [ref=e55]: Flat white
+                - generic [ref=e57]: ₹150
+              - paragraph [ref=e59]: Ristretto double shot topped with velvety textured microfoam
+        - generic [ref=e60]:
+          - heading "Tea" [level=3] [ref=e61]
+          - generic [ref=e62]:
+            - article [ref=e63]:
+              - generic [ref=e64]:
+                - generic [ref=e65]: First flush Darjeeling
+                - generic [ref=e67]: ₹130
+              - generic [ref=e68]:
+                - paragraph [ref=e69]: Spring harvest loose leaf tea with delicate floral muscatel notes
+                - generic [ref=e70]: "[special]"
+            - article [ref=e71]:
+              - generic [ref=e72]:
+                - generic [ref=e73]: Kashmiri kahwa
+                - generic [ref=e75]: ₹150
+              - paragraph [ref=e77]: Green tea brewed with saffron strands, crushed almonds and cinnamon
+            - article [ref=e78]:
+              - generic [ref=e79]:
+                - generic [ref=e80]: Masala chai
+                - generic [ref=e82]: ₹90
+              - paragraph [ref=e84]: Assam whole leaf, crushed cardamom, fresh ginger and warm milk
+        - generic [ref=e85]:
+          - heading "Pastries" [level=3] [ref=e86]
+          - generic [ref=e87]:
+            - article [ref=e88]:
+              - generic [ref=e89]:
+                - generic [ref=e90]: Almond frangipane tart
+                - generic [ref=e92]: ₹160
+              - paragraph [ref=e94]: Crisp pastry shell filled with rich almond cream and toasted flakes
+            - article [ref=e95]:
+              - generic [ref=e96]:
+                - generic [ref=e97]: Butter croissant
+                - generic [ref=e99]: ₹130
+              - paragraph [ref=e101]: Flaky layered pastry made with cultured French butter
+            - article [ref=e102]:
+              - generic [ref=e103]:
+                - generic [ref=e104]: Sourdough cardamom bun
+                - generic [ref=e106]: ₹110
+              - generic [ref=e107]:
+                - paragraph [ref=e108]: Twisted Swedish-style bun with freshly ground green cardamom
+                - generic [ref=e109]: "[special]"
+        - generic [ref=e110]:
+          - heading "Food" [level=3] [ref=e111]
+          - generic [ref=e112]:
+            - article [ref=e113]:
+              - generic [ref=e114]:
+                - generic [ref=e115]: Mushroom melt
+                - generic [ref=e117]: ₹240
+              - paragraph [ref=e119]: Sautéed wild mushrooms, aged cheddar and fresh thyme on sourdough
+            - article [ref=e120]:
+              - generic [ref=e121]:
+                - generic [ref=e122]: Whipped ricotta & fig toast
+                - generic [ref=e124]: ₹220
+              - generic [ref=e125]:
+                - paragraph [ref=e126]: Thick sourdough, house-whipped ricotta, fresh figs and wild honey
+                - generic [ref=e127]: "[special]"
+    - generic [ref=e129]:
+      - heading "Opening hours" [level=2] [ref=e130]
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - generic [ref=e133]: Monday
+          - generic [ref=e135]: 7:30 am – 7 pm
+        - generic [ref=e136]:
+          - generic [ref=e137]: Tuesday
+          - generic [ref=e139]: 7:30 am – 7 pm
+        - generic [ref=e140]:
+          - generic [ref=e141]: Wednesday
+          - generic [ref=e143]: 7:30 am – 7 pm
+        - generic [ref=e144]:
+          - generic [ref=e145]: Thursday
+          - generic [ref=e147]: 7:30 am – 7 pm
+        - generic [ref=e148]:
+          - generic [ref=e149]: Friday
+          - generic [ref=e151]: 7:30 am – 7 pm
+        - generic [ref=e152]:
+          - generic [ref=e153]: Saturday
+          - generic [ref=e155]: 8 am – 8 pm
+        - generic [ref=e156]:
+          - generic [ref=e157]:
+            - generic [ref=e158]: Sunday
+            - generic [ref=e159]: (Today)
+          - generic [ref=e160]: 8 am – 6 pm
+    - generic [ref=e161]:
+      - heading "Location" [level=2] [ref=e163]
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]:
+            - heading "Address" [level=3] [ref=e167]
+            - paragraph [ref=e168]: 42 Market Street, Fort, Kochi, Kerala 682001
+          - generic [ref=e169]:
+            - heading "Contact" [level=3] [ref=e170]
+            - generic [ref=e171]:
+              - link "+91 98470 12345" [ref=e172] [cursor=pointer]:
+                - /url: tel:+919847012345
+              - link "hello@kettleandcrumb.in" [ref=e173] [cursor=pointer]:
+                - /url: mailto:hello@kettleandcrumb.in
+          - link "Get directions" [ref=e175] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Fort+Kochi+Kerala
+        - iframe [ref=e177]
+    - generic [ref=e178]:
+      - heading "Gallery" [level=2] [ref=e180]
+      - generic [ref=e181]:
+        - img "Sunlit wooden table with ceramic pour-over coffee carafe and mug" [ref=e183]
+        - img "Freshly baked artisan sourdough bread loaf scored on a wooden cooling rack" [ref=e185]
+        - img "Barista steaming fresh whole milk with an espresso machine wand" [ref=e187]
+        - img "Warm café interior with rustic brick counter and hanging pendant lights" [ref=e189]
+        - img "Golden flaky morning croissants displayed behind the glass bakery case" [ref=e191]
+        - img "Fresh espresso shot pulling rich crema into an earthenware demitasse" [ref=e193]
+  - contentinfo [ref=e194]:
+    - generic [ref=e195]:
+      - generic [ref=e196]:
+        - generic [ref=e197]:
+          - generic [ref=e198]: Kettle & Crumb
+          - paragraph [ref=e199]: Slow coffee and warm bread, since 2019.
+        - generic [ref=e200]:
+          - generic [ref=e201]: Quick links
+          - generic [ref=e202]:
+            - link "Menu" [ref=e203] [cursor=pointer]:
+              - /url: "#menu"
+            - link "Opening hours" [ref=e204] [cursor=pointer]:
+              - /url: "#hours"
+            - link "Location & directions" [ref=e205] [cursor=pointer]:
+              - /url: "#location"
+            - link "Gallery" [ref=e206] [cursor=pointer]:
+              - /url: "#gallery"
+        - generic [ref=e207]:
+          - generic [ref=e208]: Visit us
+          - paragraph [ref=e209]: 42 Market Street, Fort, Kochi, Kerala 682001
+          - paragraph [ref=e210]: +91 98470 12345
+        - generic [ref=e211]:
+          - generic [ref=e212]:
+            - generic [ref=e213]: Follow
+            - generic [ref=e214]:
+              - link "Instagram" [ref=e215] [cursor=pointer]:
+                - /url: https://instagram.com
+              - link "Twitter" [ref=e216] [cursor=pointer]:
+                - /url: https://twitter.com
+          - button "Back to top" [ref=e218] [cursor=pointer]
+      - generic [ref=e222]:
+        - paragraph [ref=e223]: © 2026 Kettle & Crumb. All rights reserved.
+        - link "Admin login" [ref=e224] [cursor=pointer]:
+          - /url: /admin
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e230] [cursor=pointer]:
+    - generic [ref=e233]:
+      - text: Compiling
+      - generic [ref=e234]:
+        - generic [ref=e235]: .
+        - generic [ref=e236]: .
+        - generic [ref=e237]: .
+  - alert [ref=e238]

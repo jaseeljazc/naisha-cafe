@@ -1,0 +1,217 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e560]:
+      - heading "I'm Jaseel" [level=2] [ref=e562]
+      - paragraph [ref=e567]:
+        - generic [ref=e568]: Creative
+        - generic [ref=e571]: Developer
+    - generic [ref=e575]:
+      - heading "About Me" [level=2] [ref=e577]
+      - generic [ref=e578]:
+        - generic [ref=e580]:
+          - generic [ref=e581]: THE CRAFTSMAN
+          - heading "System Integrity" [level=3] [ref=e583]
+          - paragraph [ref=e584]: Writing clean, maintainable, self-documenting code. Built for resilience and enterprise scale without sacrificing visual punch or creative audacity.
+        - generic [ref=e587]:
+          - img "Muhammed Jaseel" [ref=e592]
+          - generic [ref=e595]:
+            - generic [ref=e596]:
+              - generic [ref=e597]:
+                - generic [ref=e598]: HEMISPHERE // RIGHT
+                - generic [ref=e599]: CREATIVE
+              - heading "Creative Thinking" [level=4] [ref=e607]
+              - list [ref=e608]:
+                - listitem [ref=e609]:
+                  - generic [ref=e611]: Visual storytelling & kinetic flow
+                - listitem [ref=e612]:
+                  - generic [ref=e614]: Bold comic composition & color theory
+                - listitem [ref=e615]:
+                  - generic [ref=e617]: Fluid organic micro-interactions
+            - generic [ref=e618]: "SYNAPSE: INTUITION × LOGIC"
+            - generic [ref=e623]:
+              - heading "Logical Mind" [level=4] [ref=e624]
+              - list [ref=e625]:
+                - listitem [ref=e626]:
+                  - generic [ref=e628]: Resilient Next.js 15 & React 19 architecture
+                - listitem [ref=e629]:
+                  - generic [ref=e631]: Hardware-accelerated WebGL & shaders
+                - listitem [ref=e632]:
+                  - generic [ref=e634]: Deterministic state flows & type safety
+              - generic [ref=e635]:
+                - generic [ref=e636]: HEMISPHERE // LEFT
+                - generic [ref=e637]: SYSTEMS
+        - generic [ref=e643]:
+          - generic [ref=e644]: THE OPERATIVE
+          - heading "Always Evolving" [level=3] [ref=e646]
+          - paragraph [ref=e647]: Constantly pushing the frontiers of interactive frontend design. Dedicated to engineering unforgettable web experiences that leave a lasting mark.
+    - generic [ref=e654]:
+      - heading "My Story" [level=2] [ref=e658]
+      - generic:
+        - generic [ref=e663]: CHAPTER IV // THE INFINITE ODYSSEY
+        - paragraph [ref=e670]: NOW HE WALKS ALONE THROUGH THE UNCHARTED DIGITAL HIGHWAYS, HOOD DRAWN LOW AGAINST THE STATIC WIND. EVERY CODEBASE IS A BATTLEGROUND; EVERY WEB EXPERIENCE IS A HEROIC CHAPTER WAITING TO BE UNLEASHED.
+        - generic [ref=e673]:
+          - generic [ref=e674]: "04"
+          - generic [ref=e675]: /
+          - generic [ref=e676]: "04"
+    - generic [ref=e680]:
+      - heading "Skills Arsenal" [level=2] [ref=e684]
+      - generic [ref=e685]: Chapter 02 // scroll to rotate
+      - generic [ref=e691]:
+        - generic [ref=e692]:
+          - 'button "React 19 — FRONTEND: VIRTUAL DOM ENGINE" [pressed] [ref=e693] [cursor=pointer]':
+            - generic [ref=e694]:
+              - generic [ref=e697]:
+                - generic: FRONTEND
+                - generic [ref=e698]: FE // 01
+                - generic [ref=e701]: FRONTEND
+                - generic [ref=e706]: UI ENGINE
+              - generic [ref=e710]:
+                - generic: WARP!
+                - generic [ref=e718]: React 19
+          - 'button "Next.js 15 — FRONTEND: FULLSTACK SUPERSONIC" [ref=e719] [cursor=pointer]':
+            - generic [ref=e720]:
+              - generic [ref=e723]:
+                - generic: FRONTEND
+                - generic [ref=e724]: FE // 02
+                - generic [ref=e727]: FRONTEND
+                - generic [ref=e732]: FULLSTACK
+              - generic [ref=e736]:
+                - generic: TURBO!
+                - generic [ref=e742]: Next.js 15
+          - 'button "TypeScript — FRONTEND: TYPE GUARDIAN" [ref=e743] [cursor=pointer]':
+            - generic [ref=e744]:
+              - generic [ref=e747]:
+                - generic: FRONTEND
+                - generic [ref=e748]: FE // 03
+                - generic [ref=e751]: FRONTEND
+                - generic [ref=e756]: TYPES
+              - generic [ref=e760]:
+                - generic: SHIELD!
+                - generic [ref=e766]: TypeScript
+          - 'button "JavaScript — FRONTEND: KINETIC RUNTIME" [ref=e767] [cursor=pointer]':
+            - generic [ref=e768]:
+              - generic [ref=e771]:
+                - generic: FRONTEND
+                - generic [ref=e772]: FE // 04
+                - generic [ref=e775]: FRONTEND
+                - generic [ref=e780]: CORE
+              - generic [ref=e784]:
+                - generic: SPARK!
+                - generic [ref=e789]: JavaScript
+          - 'button "Tailwind CSS — FRONTEND: STYLE SHIFT" [ref=e790] [cursor=pointer]':
+            - generic [ref=e791]:
+              - generic [ref=e794]:
+                - generic: FRONTEND
+                - generic [ref=e795]: FE // 05
+                - generic [ref=e798]: FRONTEND
+                - generic [ref=e803]: STYLING
+              - generic [ref=e807]:
+                - generic: SWOOSH!
+                - generic [ref=e811]: Tailwind CSS
+          - 'button "Node.js — BACKEND: EVENT HEAVY-LIFT" [ref=e812] [cursor=pointer]':
+            - generic [ref=e813]:
+              - generic [ref=e816]:
+                - generic: BACKEND
+                - generic [ref=e817]: BE // 01
+                - generic [ref=e820]: BACKEND
+                - generic [ref=e826]: RUNTIME
+              - generic [ref=e830]:
+                - generic: ROAR!
+                - generic [ref=e836]: Node.js
+          - 'button "Express.js — BACKEND: API GATEWAY" [ref=e837] [cursor=pointer]':
+            - generic [ref=e838]:
+              - generic [ref=e841]:
+                - generic: BACKEND
+                - generic [ref=e842]: BE // 02
+                - generic [ref=e845]: BACKEND
+                - generic [ref=e851]: API ROUTE
+              - generic [ref=e855]:
+                - generic: ROUTE!
+                - img [ref=e857]:
+                  - generic [ref=e859]: ex
+                - generic [ref=e860]: Express.js
+          - 'button "MongoDB — DATABASE: NO-SQL VAULT" [ref=e861] [cursor=pointer]':
+            - generic [ref=e862]:
+              - generic [ref=e865]:
+                - generic: DATABASE
+                - generic [ref=e866]: DB // 01
+                - generic [ref=e869]: DATABASE
+                - generic [ref=e876]: NO-SQL
+              - generic [ref=e880]:
+                - generic: STORE!
+                - generic [ref=e886]: MongoDB
+          - 'button "PostgreSQL — DATABASE: RELATIONAL CITADEL" [ref=e887] [cursor=pointer]':
+            - generic [ref=e888]:
+              - generic [ref=e891]:
+                - generic: DATABASE
+                - generic [ref=e892]: DB // 02
+                - generic [ref=e895]: DATABASE
+                - generic [ref=e902]: RELATIONAL
+              - generic [ref=e906]:
+                - generic: LOCK!
+                - generic [ref=e911]: PostgreSQL
+          - 'button "Redux — FRONTEND: ATOMIC SYNC" [ref=e912] [cursor=pointer]':
+            - generic [ref=e913]:
+              - generic [ref=e916]:
+                - generic: FRONTEND
+                - generic [ref=e917]: FE // 06
+                - generic [ref=e920]: FRONTEND
+                - generic [ref=e925]: STATE SYNC
+              - generic [ref=e929]:
+                - generic: PULSE!
+                - generic [ref=e934]: Redux
+          - 'button "HTML5 — FRONTEND: BEDROCK SKELETON" [ref=e935] [cursor=pointer]':
+            - generic [ref=e936]:
+              - generic [ref=e939]:
+                - generic: FRONTEND
+                - generic [ref=e940]: FE // 07
+                - generic [ref=e943]: FRONTEND
+                - generic [ref=e948]: SEMANTIC
+              - generic [ref=e952]:
+                - generic: BASE!
+                - generic [ref=e959]: HTML5
+          - 'button "CSS3 — FRONTEND: VISUAL MATRIX" [ref=e960] [cursor=pointer]':
+            - generic [ref=e961]:
+              - generic [ref=e964]:
+                - generic: FRONTEND
+                - generic [ref=e965]: FE // 08
+                - generic [ref=e968]: FRONTEND
+                - generic [ref=e973]: LAYOUT
+              - generic [ref=e977]:
+                - generic: FLEX!
+                - generic [ref=e984]: CSS3
+          - 'button "Git & GitHub — TOOL: TIMELINE BENDER" [ref=e985] [cursor=pointer]':
+            - generic [ref=e986]:
+              - generic [ref=e989]:
+                - generic: TOOL
+                - generic [ref=e990]: TL // 01
+                - generic [ref=e993]: TOOL
+                - generic [ref=e998]: DEVOPS
+              - generic [ref=e1002]:
+                - generic: MERGE!
+                - generic [ref=e1006]: Git & GitHub
+          - 'button "Docker — TOOL: ISOLATION POD" [ref=e1007] [cursor=pointer]':
+            - generic [ref=e1008]:
+              - generic [ref=e1011]:
+                - generic: TOOL
+                - generic [ref=e1012]: TL // 02
+                - generic [ref=e1015]: TOOL
+                - generic [ref=e1020]: CONTAINER
+              - generic [ref=e1024]:
+                - generic: CARGO!
+                - generic [ref=e1034]: Docker
+          - 'button "Figma — TOOL: ARCHITECT CANVAS" [ref=e1035] [cursor=pointer]':
+            - generic [ref=e1036]:
+              - generic [ref=e1039]:
+                - generic: TOOL
+                - generic [ref=e1040]: TL // 03
+                - generic [ref=e1043]: TOOL
+                - generic [ref=e1048]: DESIGN
+              - generic [ref=e1052]:
+                - generic: CRAFT!
+                - generic [ref=e1060]: Figma
+        - paragraph [ref=e1062]:
+          - text: VIRTUAL DOM ENGINE
+          - generic [ref=e1063]: /Declarative component hierarchies, concurrent rendering, and reactive state flows.
+  - button "Open Next.js Dev Tools" [ref=e539] [cursor=pointer]
+  - alert [ref=e556]

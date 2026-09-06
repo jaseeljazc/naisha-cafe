@@ -1,0 +1,124 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-ink: #221A12;
+  --color-paper: #F2ECE0;
+  --color-milk: #FFFCF6;
+  --color-leaf: #2E5A3C;
+  --color-ochre: #B07D2B;
+  --color-muted: #7A6A57;
+  --color-line: #DED3C1;
+
+  --font-display: var(--font-display), "Instrument Serif", Georgia, serif;
+  --font-sans: var(--font-sans), "Karla", system-ui, sans-serif;
+
+  --text-hero: clamp(3rem, 11vw, 7.5rem);
+  --text-hero--line-height: 0.92;
+
+  --text-section: clamp(2rem, 5vw, 3.25rem);
+  --text-section--line-height: 1.05;
+
+  --text-item: 1.125rem;
+  --text-item--line-height: 1.3;
+
+  --text-price: 1.125rem;
+  --text-price--line-height: 1.3;
+
+  --text-body: 1rem;
+  --text-body--line-height: 1.6;
+
+  --text-caption: 0.875rem;
+  --text-caption--line-height: 1.5;
+
+  --radius-lg: 0.5rem;
+  --radius-md: 0.375rem;
+  --radius-sm: 0.25rem;
+
+  --color-background: #F2ECE0;
+  --color-foreground: #221A12;
+  --color-card: #FFFCF6;
+  --color-card-foreground: #221A12;
+  --color-popover: #FFFCF6;
+  --color-popover-foreground: #221A12;
+  --color-primary: #2E5A3C;
+  --color-primary-foreground: #FFFCF6;
+  --color-secondary: #F2ECE0;
+  --color-secondary-foreground: #221A12;
+  --color-muted: #7A6A57;
+  --color-muted-foreground: #7A6A57;
+  --color-accent: #FFFCF6;
+  --color-accent-foreground: #221A12;
+  --color-destructive: #9E2A2B;
+  --color-destructive-foreground: #FFFCF6;
+  --color-border: #DED3C1;
+  --color-input: #DED3C1;
+  --color-ring: #2E5A3C;
+}
+
+:root {
+  --background: #F2ECE0;
+  --foreground: #221A12;
+  --card: #FFFCF6;
+  --card-foreground: #221A12;
+  --popover: #FFFCF6;
+  --popover-foreground: #221A12;
+  --primary: #2E5A3C;
+  --primary-foreground: #FFFCF6;
+  --secondary: #F2ECE0;
+  --secondary-foreground: #221A12;
+  --muted: #7A6A57;
+  --muted-foreground: #7A6A57;
+  --accent: #FFFCF6;
+  --accent-foreground: #221A12;
+  --destructive: #9E2A2B;
+  --destructive-foreground: #FFFCF6;
+  --border: #DED3C1;
+  --input: #DED3C1;
+  --ring: #2E5A3C;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-line);
+  }
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-leaf);
+    outline-offset: 2px;
+  }
+}
+
+@keyframes heroFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero-animate-title {
+    animation: heroFadeUp 0.6s ease-out forwards;
+  }
+  .hero-animate-tagline {
+    animation: heroFadeUp 0.6s ease-out 80ms forwards;
+    opacity: 0;
+  }
+  .hero-animate-status {
+    animation: heroFadeUp 0.6s ease-out 160ms forwards;
+    opacity: 0;
+  }
+  .hero-animate-actions {
+    animation: heroFadeUp 0.6s ease-out 240ms forwards;
+    opacity: 0;
+  }
+}
