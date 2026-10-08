@@ -4,7 +4,7 @@ A single-page website for an independent coffee shop, with a small
 password-protected admin panel for managing the menu.
 
 Mini project, Department of Computer Applications, MES College of Engineering,
-Kuttippuram. Built by Kadheeja Naisha (MES25MCA-2029).
+Kuttippuram. Built by Kadheeja Naisha (MES25MCA-2029).ff
 
 ## What it does
 
