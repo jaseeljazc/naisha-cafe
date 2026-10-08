@@ -1,0 +1,368 @@
+- generic [active] [ref=f1e1]:
+  - button "Open Next.js Dev Tools" [ref=f1e7] [cursor=pointer]
+  - alert [ref=f1e11]
+  - main [ref=f1e12]:
+    - generic [ref=f1e13]:
+      - complementary "Loading comic portfolio" [ref=f1e14]:
+        - generic [aria-hidden]: + 00 // TL
+        - generic [aria-hidden]: TR // 01 +
+        - generic [aria-hidden]: + 02 // BL
+        - generic [aria-hidden]: BR // 03 +
+        - generic [ref=f1e15]:
+          - generic [ref=f1e16]: "DOSSIER: CLASSIFIED"
+          - generic [ref=f1e18]: "> SYSTEM ARMED & READY."
+          - generic [ref=f1e19]:
+            - generic [ref=f1e20]: "["
+            - generic [ref=f1e21]: 100%
+            - generic [ref=f1e22]: "]"
+        - main [ref=f1e23]:
+          - generic [aria-hidden]:
+            - generic:
+              - generic: COMICFOLIO · MUHAMMED JASEEL · CREATIVE DEV ·
+              - generic: COMICFOLIO · MUHAMMED JASEEL · CREATIVE DEV ·
+          - heading "MUHAMMED" [level=1] [ref=f1e25]
+          - heading "JASEEL" [level=1] [ref=f1e27]
+          - generic [ref=f1e28]: Creative Developer
+        - generic [ref=f1e38]:
+          - generic [ref=f1e39]: SYS // KINETIC ENGINE READY · LAT 11.25° N
+          - button "ENTER NOW" [ref=f1e44] [cursor=pointer]
+      - generic [ref=f1e51]:
+        - heading "I'm Jaseel" [level=2] [ref=f1e53]
+        - paragraph [ref=f1e58]:
+          - generic [ref=f1e59]: Creative
+          - generic [ref=f1e62]: Developer
+    - generic [ref=f1e66]:
+      - heading "About Me" [level=2] [ref=f1e68]
+      - generic [ref=f1e69]:
+        - generic [ref=f1e70]:
+          - generic:
+            - generic: THE DESIGNER
+            - heading "Obsessed With Detail" [level=3]
+            - paragraph: Every pixel, spacing rhythm, and typographic contrast matters. I treat the screen as an open canvas, balancing negative space with bold comic ink tension.
+        - generic [ref=f1e73]:
+          - img "Muhammed Jaseel" [ref=f1e78]
+          - generic [ref=f1e81]:
+            - generic [ref=f1e82]:
+              - generic [ref=f1e83]:
+                - generic [ref=f1e84]: HEMISPHERE // RIGHT
+                - generic [ref=f1e85]: CREATIVE
+              - heading "Creative Thinking" [level=4] [ref=f1e93]
+              - list [ref=f1e94]:
+                - listitem [ref=f1e95]:
+                  - generic [ref=f1e97]: Visual storytelling & kinetic flow
+                - listitem [ref=f1e98]:
+                  - generic [ref=f1e100]: Bold comic composition & color theory
+                - listitem [ref=f1e101]:
+                  - generic [ref=f1e103]: Fluid organic micro-interactions
+            - generic [ref=f1e104]: "SYNAPSE: INTUITION × LOGIC"
+            - generic [ref=f1e109]:
+              - heading "Logical Mind" [level=4] [ref=f1e110]
+              - list [ref=f1e111]:
+                - listitem [ref=f1e112]:
+                  - generic [ref=f1e114]: Resilient Next.js 15 & React 19 architecture
+                - listitem [ref=f1e115]:
+                  - generic [ref=f1e117]: Hardware-accelerated WebGL & shaders
+                - listitem [ref=f1e118]:
+                  - generic [ref=f1e120]: Deterministic state flows & type safety
+              - generic [ref=f1e121]:
+                - generic [ref=f1e122]: HEMISPHERE // LEFT
+                - generic [ref=f1e123]: SYSTEMS
+        - generic [ref=f1e128]:
+          - generic:
+            - generic: THE VISIONARY
+            - heading "Living Interfaces" [level=3]
+            - paragraph: Static pages are forgotten. I craft tactile web experiences that react to cursor movement, scroll choreography, and ambient lighting with tangible weight.
+    - generic [ref=f1e135]:
+      - heading "My Story" [level=2] [ref=f1e139]
+      - generic:
+        - generic [ref=f1e144]: CHAPTER I // THE CODEX AWAKENING
+        - paragraph [ref=f1e151]: LEGEND TELLS OF A BOY WHO DIDN'T MERELY LEARN TO CODE—HE WAS FORGED IN A HIGH-VOLTAGE SERVER STORM UNDER A MIDNIGHT COMIC SKY. BORN WITH AN EYE FOR HYPNOTIC COLOR AND A CURSOR THAT COULD BEND THE FABRIC OF DIGITAL SPACE.
+        - generic [ref=f1e154]:
+          - generic [ref=f1e155]: "01"
+          - generic [ref=f1e156]: /
+          - generic [ref=f1e157]: "04"
+    - generic [ref=f1e161]:
+      - heading "Skills Arsenal" [level=2] [ref=f1e165]
+      - generic [ref=f1e166]: Chapter 02 // scroll to unlock
+      - generic [ref=f1e172]:
+        - generic:
+          - heading "My Skills" [level=2]
+        - generic [ref=f1e173]:
+          - 'button "React 19 — FRONTEND: VIRTUAL DOM ENGINE"':
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: FRONTEND
+                    - generic: FE // 01
+                    - generic: FRONTEND
+                    - generic: UI ENGINE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: WARP!
+                    - generic: React 19
+          - 'button "Next.js 15 — FRONTEND: FULLSTACK SUPERSONIC"':
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: FRONTEND
+                    - generic: FE // 02
+                    - generic: FRONTEND
+                    - generic: FULLSTACK
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: TURBO!
+                    - generic: Next.js 15
+          - 'button "TypeScript — FRONTEND: TYPE GUARDIAN"':
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: FRONTEND
+                    - generic: FE // 03
+                    - generic: FRONTEND
+                    - generic: TYPES
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: SHIELD!
+                    - generic: TypeScript
+          - 'button "JavaScript — FRONTEND: KINETIC RUNTIME"':
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: FRONTEND
+                    - generic: FE // 04
+                    - generic: FRONTEND
+                    - generic: CORE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: SPARK!
+                    - generic: JavaScript
+          - 'button "Tailwind CSS — FRONTEND: STYLE SHIFT"':
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: FRONTEND
+                    - generic: FE // 05
+                    - generic: FRONTEND
+                    - generic: STYLING
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: SWOOSH!
+                    - generic: Tailwind CSS
+          - 'button "Node.js — BACKEND: EVENT HEAVY-LIFT"':
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: BACKEND
+                    - generic: BE // 01
+                    - generic: BACKEND
+                    - generic: RUNTIME
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: ROAR!
+                    - generic: Node.js
+          - 'button "Express.js — BACKEND: API GATEWAY"':
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: BACKEND
+                    - generic: BE // 02
+                    - generic: BACKEND
+                    - generic: API ROUTE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: ROUTE!
+                    - generic:
+                      - img:
+                        - generic: ex
+                    - generic: Express.js
+          - 'button "MongoDB — DATABASE: NO-SQL VAULT"':
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: DATABASE
+                    - generic: DB // 01
+                    - generic: DATABASE
+                    - generic: NO-SQL
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: STORE!
+                    - generic: MongoDB
+          - 'button "PostgreSQL — DATABASE: RELATIONAL CITADEL"':
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: DATABASE
+                    - generic: DB // 02
+                    - generic: DATABASE
+                    - generic: RELATIONAL
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: LOCK!
+                    - generic: PostgreSQL
+          - 'button "Redux — FRONTEND: ATOMIC SYNC"':
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: FRONTEND
+                    - generic: FE // 06
+                    - generic: FRONTEND
+                    - generic: STATE SYNC
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: PULSE!
+                    - generic: Redux
+          - 'button "HTML5 — FRONTEND: BEDROCK SKELETON"':
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: FRONTEND
+                    - generic: FE // 07
+                    - generic: FRONTEND
+                    - generic: SEMANTIC
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: BASE!
+                    - generic: HTML5
+          - 'button "CSS3 — FRONTEND: VISUAL MATRIX"':
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: FRONTEND
+                    - generic: FE // 08
+                    - generic: FRONTEND
+                    - generic: LAYOUT
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: FLEX!
+                    - generic: CSS3
+          - 'button "Git & GitHub — TOOL: TIMELINE BENDER"':
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: TOOL
+                    - generic: TL // 01
+                    - generic: TOOL
+                    - generic: DEVOPS
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: MERGE!
+                    - generic: Git & GitHub
+          - 'button "Docker — TOOL: ISOLATION POD"':
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: TOOL
+                    - generic: TL // 02
+                    - generic: TOOL
+                    - generic: CONTAINER
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: CARGO!
+                    - generic: Docker
+          - 'button "Figma — TOOL: ARCHITECT CANVAS"':
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: TOOL
+                    - generic: TL // 03
+                    - generic: TOOL
+                    - generic: DESIGN
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: CRAFT!
+                    - generic: Figma
+        - paragraph [ref=f1e175]: SELECT ANY ARSENAL CARD TO INSPECT SPECIFICATIONS
+    - generic [ref=f1e177]:
+      - generic [ref=f1e178]:
+        - generic [ref=f1e179]: Chapter 03 // My Projects (Closed)
+        - heading "Projects Dossier" [level=2] [ref=f1e184]
+        - paragraph [ref=f1e185]: SCROLL DOWN TO OPEN THE BOOK • TAP TO OPEN
+      - generic [ref=f1e193]:
+        - generic [ref=f1e194]:
+          - button "Previous book page" [disabled] [ref=f1e195]:
+            - generic [ref=f1e196]: PREV
+          - generic [ref=f1e201]:
+            - generic [ref=f1e202]: MY PROJECTS // CLOSED
+            - generic [ref=f1e206]: CLICK PAGE EDGE OR USE ARROWS
+          - button "Next book page" [ref=f1e207] [cursor=pointer]:
+            - generic [ref=f1e208]: NEXT
+        - generic [ref=f1e213]:
+          - button "[COVER]CLOSED" [ref=f1e214]:
+            - generic [ref=f1e215]: "[COVER]"
+            - text: CLOSED
+          - button "[01-02]BETTERINU" [ref=f1e216]:
+            - generic [ref=f1e217]: "[01-02]"
+            - text: BETTERINU
+          - button "[03-04]ADMIN & MIXBY" [ref=f1e218]:
+            - generic [ref=f1e219]: "[03-04]"
+            - text: ADMIN & MIXBY
+          - button "[05-06]POS & ERP" [ref=f1e220]:
+            - generic [ref=f1e221]: "[05-06]"
+            - text: POS & ERP
+          - button "[SUMMARY]MISSION LOG" [ref=f1e222]:
+            - generic [ref=f1e223]: "[SUMMARY]"
+            - text: MISSION LOG
+          - button "[END]CLOSE" [ref=f1e224]:
+            - generic [ref=f1e225]: "[END]"
+            - text: CLOSE
+      - paragraph [ref=f1e227]: SCROLL DOWN TO TURN PAGES • DRAG TO TILT • ARROWS / BUTTONS TO NAVIGATE
+    - generic [ref=f1e229]:
+      - generic:
+        - generic: Chapter 04 // Chrono Archive
+        - heading "Experience" [level=2]
+        - generic:
+          - generic: "[2023]"
+          - generic: Creative Web Developer • DIGITAL STUDIOS
+        - paragraph: CHRONO 2023 // CREATIVE WEB & INTERACTIVE STORYTELLING
+      - generic [ref=f1e236]:
+        - generic:
+          - img:
+            - generic [ref=f1e237] [cursor=pointer]:
+              - generic [ref=f1e241]: "2023"
+              - generic [ref=f1e242]: MMXXIII
+            - generic [ref=f1e243] [cursor=pointer]:
+              - generic [ref=f1e245]: "2024"
+              - generic [ref=f1e246]: MMXXIV
+            - generic [ref=f1e247] [cursor=pointer]:
+              - generic [ref=f1e249]: "2025"
+              - generic [ref=f1e250]: MMXXV
+            - generic [ref=f1e251] [cursor=pointer]:
+              - generic [ref=f1e253]: "2026"
+              - generic [ref=f1e254]: MMXXVI
+      - generic [ref=f1e255]:
+        - generic [ref=f1e256]:
+          - button "2023" [ref=f1e257] [cursor=pointer]
+          - button "2024" [ref=f1e260] [cursor=pointer]
+          - button "2025" [ref=f1e263] [cursor=pointer]
+          - button "2026" [ref=f1e266] [cursor=pointer]
+        - generic [ref=f1e269]: SCROLL TO ROTATE CLOCK HAND • CLICK YEARS TO JUMP • HOVER CARD TO INSPECT IN 3D

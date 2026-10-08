@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { formatPrice } from "@/lib/utils.js";
 
 const CATEGORIES = ["Coffee", "Tea", "Pastries", "Food"];
@@ -32,49 +33,56 @@ export default function MenuSection({ products = [] }) {
 
                 <div className="flex flex-col divide-y divide-line">
                   {items.map((item) => (
-                    <article key={item._id} className="py-4 flex items-start gap-4">
-                      {item.imageUrl && (
-                        <div className="relative size-14 shrink-0 overflow-hidden border border-line bg-milk">
-                          <Image
-                            src={item.imageUrl}
-                            alt={item.name}
-                            fill
-                            sizes="56px"
-                            className="object-cover rounded-none"
-                          />
-                        </div>
-                      )}
+                    <Link
+                      key={item._id}
+                      href={`/products/${item._id}`}
+                      className="group block py-4 focus-visible:outline-leaf rounded-none"
+                      aria-label={`View details for ${item.name}, ${formatPrice(item.price)}`}
+                    >
+                      <article className="flex items-start gap-4">
+                        {item.imageUrl && (
+                          <div className="relative size-14 shrink-0 overflow-hidden border border-line bg-milk">
+                            <Image
+                              src={item.imageUrl}
+                              alt={item.name}
+                              fill
+                              sizes="56px"
+                              className="object-cover rounded-none transition-transform duration-300 group-hover:scale-105"
+                            />
+                          </div>
+                        )}
 
-                      <div className="flex flex-col gap-1 grow min-w-0">
-                        <div className="flex items-baseline gap-2">
-                          <span className="font-display text-item text-ink shrink-0">
-                            {item.name}
-                          </span>
-                          <span
-                            className="grow border-b border-dotted border-line min-w-4 mb-1"
-                            aria-hidden="true"
-                          />
-                          <span className="font-display text-price text-ink tabular-nums shrink-0">
-                            {formatPrice(item.price)}
-                          </span>
-                        </div>
-
-                        <div className="flex items-baseline justify-between gap-4">
-                          {item.description ? (
-                            <p className="font-sans text-sm text-muted max-w-[62ch]">
-                              {item.description}
-                            </p>
-                          ) : (
-                            <span />
-                          )}
-                          {item.isSpecial && (
-                            <span className="font-sans text-xs text-ochre font-medium shrink-0 ml-auto">
-                              [special]
+                        <div className="flex flex-col gap-1 grow min-w-0">
+                          <div className="flex items-baseline gap-2">
+                            <span className="font-display text-item text-ink shrink-0 group-hover:text-leaf transition-colors">
+                              {item.name}
                             </span>
-                          )}
+                            <span
+                              className="grow border-b border-dotted border-line min-w-4 mb-1"
+                              aria-hidden="true"
+                            />
+                            <span className="font-display text-price text-ink tabular-nums shrink-0">
+                              {formatPrice(item.price)}
+                            </span>
+                          </div>
+
+                          <div className="flex items-baseline justify-between gap-4">
+                            {item.description ? (
+                              <p className="font-sans text-sm text-muted max-w-[62ch]">
+                                {item.description}
+                              </p>
+                            ) : (
+                              <span />
+                            )}
+                            {item.isSpecial && (
+                              <span className="font-sans text-xs text-ochre font-medium shrink-0 ml-auto">
+                                [special]
+                              </span>
+                            )}
+                          </div>
                         </div>
-                      </div>
-                    </article>
+                      </article>
+                    </Link>
                   ))}
                 </div>
               </div>

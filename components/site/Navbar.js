@@ -1,10 +1,11 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { site } from "@/data/site.js";
 
-export default function Navbar() {
+export default function Navbar({ solid = false }) {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -20,41 +21,43 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const isSolid = solid || isScrolled;
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-200 ${
-        isScrolled
-          ? "bg-paper/95 text-ink border-b border-line shadow-sm backdrop-blur-xs"
+        isSolid
+          ? "bg-paper/95 text-ink border-b border-line shadow-xs backdrop-blur-xs"
           : "bg-transparent text-paper"
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 md:px-10 h-20 flex items-center justify-between">
-        <a
-          href="#"
+        <Link
+          href="/"
           className="font-display text-2xl tracking-tight focus-visible:outline-leaf"
         >
           {site.name}
-        </a>
+        </Link>
 
         <nav className="hidden md:flex items-center gap-8 text-base font-medium">
-          <a
-            href="#menu"
+          <Link
+            href="/#menu"
             className="hover:opacity-80 transition-opacity focus-visible:outline-leaf"
           >
             Menu
-          </a>
-          <a
-            href="#hours"
+          </Link>
+          <Link
+            href="/#hours"
             className="hover:opacity-80 transition-opacity focus-visible:outline-leaf"
           >
             Hours
-          </a>
-          <a
-            href="#location"
+          </Link>
+          <Link
+            href="/#location"
             className="hover:opacity-80 transition-opacity focus-visible:outline-leaf"
           >
             Find us
-          </a>
+          </Link>
         </nav>
 
         <button
@@ -62,7 +65,7 @@ export default function Navbar() {
           aria-expanded={isOpen}
           aria-label="Toggle navigation menu"
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden p-2 rounded-lg hover:opacity-80 focus-visible:outline-leaf"
+          className="md:hidden p-2 rounded-lg hover:opacity-80 focus-visible:outline-leaf cursor-pointer"
         >
           {isOpen ? <X className="size-6" /> : <Menu className="size-6" />}
         </button>
@@ -70,27 +73,27 @@ export default function Navbar() {
 
       {isOpen && (
         <div className="md:hidden bg-paper text-ink border-b border-line px-6 py-6 flex flex-col gap-4 shadow-sm">
-          <a
-            href="#menu"
+          <Link
+            href="/#menu"
             onClick={() => setIsOpen(false)}
             className="text-lg py-1 border-b border-line/50 focus-visible:outline-leaf"
           >
             Menu
-          </a>
-          <a
-            href="#hours"
+          </Link>
+          <Link
+            href="/#hours"
             onClick={() => setIsOpen(false)}
             className="text-lg py-1 border-b border-line/50 focus-visible:outline-leaf"
           >
             Hours
-          </a>
-          <a
-            href="#location"
+          </Link>
+          <Link
+            href="/#location"
             onClick={() => setIsOpen(false)}
             className="text-lg py-1 focus-visible:outline-leaf"
           >
             Find us
-          </a>
+          </Link>
         </div>
       )}
     </header>
